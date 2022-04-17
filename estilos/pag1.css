@@ -138,7 +138,7 @@ footer{
     font-weight: bolder;
 }
 
-@media (max-width: 450px){
+@media (max-width: 600px){
     .isaque div{
         display: block;
     }

@@ -1,0 +1,84 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@100;300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Cabeçalho*/
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #ff0000;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo > img{
+    width: 200px;
+}
+
+.social a > img{
+    width: 27px;
+    padding-left: -5px;
+    margin-right: 20px;
+}
+/*Navegação*/
+nav{
+    background-color: rgb(236, 2, 2);
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+nav div > a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 6px;
+
+}
+nav div > a:hover{
+    background-color: #ff0000;
+}
+input{
+    border-radius: 7px;
+    padding: 4px;
+    margin-left: 2px;
+}
+/*Corpo*/
+main{
+    max-width: 1000px;
+    margin: auto;
+}
+section div{
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+div > img{
+    width: 450px;
+    margin: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+div img:hover{
+    transform:scale(1.10,1.10);
+}
+h1{
+    font-family: 'Hepta Slab', sans-serif;
+    padding: 30px 0px 30px 0px;
+}
+/*Rodapé*/
+footer{
+    text-align: center;
+    background-color: #ff0000;
+    padding: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}

@@ -1,0 +1,139 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@100;300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Cabeçalho*/
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #ff0000;
+    align-items: center;
+    padding: 10px;
+}
+.logo > img{
+    width: 200px;
+}
+.social a > img{
+    width: 27px;
+    padding-left: -5px;
+    margin-right: 20px;
+}
+nav{
+    background-color: rgb(236, 2, 2);
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+nav div > a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 6px;
+
+}
+nav div > a:hover{
+    background-color: #ff0000;
+}
+input{
+    border-radius: 7px;
+    padding: 4px;
+    margin-left: 2px;
+}
+/*Corpo do site*/
+main{
+    max-width: 900px;
+    min-width: 350px;
+    margin: auto;
+    font-family: 'Hepta Slab', sans-serif;
+}
+/*Quem sou eu*/
+.isaque h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.isaque > div{
+    display: flex;
+}
+.isaque div > img{
+    margin-right: 15px;
+}
+.isaque div > p{
+    text-align: justify;
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.isaque{
+    margin: 0px 20px 0px 20px;
+}
+
+/*Meus trabalhos*/
+.trabalho{
+    margin: 0px 20px 0px 20px;
+}
+.trabalho h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex div >h2{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+.flex div > img{
+    margin-left: 20px;
+    max-width: 400px;
+    min-width: 200px;
+    display: block;
+}
+.flex div > video{
+    margin-right: 20px;
+    max-width: 400px;
+    min-width: 200px;
+    display: block;
+}
+/*Meu equipamento*/
+
+.mini2{
+    margin: 0px 20px 0px 20px;
+    max-width: 900px;
+    min-width: 350px;
+}
+.mini2 div{
+    display: flex;
+}
+.mini2 h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.mini2 p{
+    text-align: justify;
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mini2 div > img{
+    max-width: 330px;
+    max-height: 190px;
+}
+
+/*Rodapé*/
+footer{
+    text-align: center;
+    background-color: #ff0000;
+    padding: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}

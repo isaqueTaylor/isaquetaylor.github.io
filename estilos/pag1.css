@@ -137,3 +137,23 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
 }
+
+@media (max-width: 600px){
+    .isaque div{
+        display: block;
+    }
+    .isaque p{
+        margin-top: 15px;
+    }
+    .trabalho .flex img video{
+      display: block;
+      width: 300px;
+    }
+    .mini2 div{
+        display: block;
+    }
+    .mini2 p{
+        margin-bottom: 20px;
+    }
+
+}
